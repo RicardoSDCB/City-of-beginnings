@@ -1,7 +1,7 @@
 import util as ut
 
-# Mensagem inicial do programa
+# Welcome message to the player
 print("Welcome to the game HIGHER OR LOWER!\n")
 
-# Aqui iremos chamar a função para escolher quem tem mais followers.
+# Where the game starts. Just a simple way to organize things and let this less incoherent.
 ut.game()

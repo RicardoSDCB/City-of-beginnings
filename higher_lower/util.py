@@ -19,10 +19,6 @@ def game():
         guess = input("Who has more followers? Type 'A' or 'B': ").upper()
 
         while True:
-        #     print(f"ESSE É O 'A' ATUAL: {a['name']}\nESSE É O 'B' ATUAL: {b['name']}\n\n")
-        #     print(compare(a,b))
-        #     print()
-        #     print()
             if guess == compare(a,b):
                 score += 1
                 print(f"\nYou're right! Current score: {score}.\n")
@@ -50,8 +46,7 @@ def game():
 
 
 def compare(one, two):
-    """Needs Two things to work... I guess..."""
-    # print(one['follower_count'])
+    """Pass the follow persons, 'A' and 'B'"""
     if one['follower_count'] > two['follower_count']:
         return "A"
     else:
