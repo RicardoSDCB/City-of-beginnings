@@ -38,7 +38,7 @@ data = [
     {
         'name': 'Kim Kardashian',
         'follower_count': 167,
-        'description': '',
+        'description': 'Someone man, I don\'t care',
         'country': 'Reality Tv personality and businesswoman'
     },
     {
@@ -48,16 +48,16 @@ data = [
         'country': 'United States'
     },
     {
-        'name': 'Instagram',
-        'follower_count': 346,
-        'description': 'Social media platform',
-        'country': 'United States'
+        'name': 'Random 1',
+        'follower_count': 500,
+        'description': 'Something random just to feed this data :D',
+        'country': 'Huehue'
     },
     {
-        'name': 'Instagram',
-        'follower_count': 346,
-        'description': 'Social media platform',
-        'country': 'United States'
+        'name': 'Somebody that I used to Know',
+        'follower_count': 1,
+        'description': 'Just a song',
+        'country': 'Yt'
     },
 
 ]
